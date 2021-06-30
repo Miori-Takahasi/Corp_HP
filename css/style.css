@@ -291,8 +291,7 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
-
-
+	
 	.case {
 		padding: 50px 20px;
 	}
@@ -306,14 +305,15 @@ a:hover {
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	.case-title {
+	.case-content_title {
 		font-size: 24px;
 		margin-bottom: 0px;
 	}
 
-	.case-btn {
-		margin-top: 0px;
+	.case-content_btn {
+		margin-top: 15px;
 	}
+
 
 	.case-content_img {
 		max-width: 700px;
