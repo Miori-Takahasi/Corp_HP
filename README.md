@@ -35,7 +35,7 @@ jQueryで動きを実装した。
 -------------------------------------------------------------------------------
 **今後学びたいこと**  
 **- css**  
-taransition/transform/@keyframe    
+transition/transform/@keyframe    
 **- javascript**    
 addEventListener/ajax/アロー関数    
 
