@@ -1,4 +1,4 @@
-###模写コーディング  
+### 模写コーディング  
 
 [だんブログさん](https://prog-anchor.com/trace/) の架空の建設会社[「蒼乃建設」](https://danblog.tokyo/)のLPをお借りし、写経しながら学んでいます。  
 
@@ -34,9 +34,9 @@ jQueryで動きを実装した。
 
 -------------------------------------------------------------------------------
 **今後学びたいこと**  
-** - css**  
+**- css**  
 taransition/transform/@keyframe    
-** - javascript**    
+**- javascript**    
 addEventListener/ajax/アロー関数    
 
 
