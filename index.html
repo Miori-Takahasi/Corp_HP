@@ -1,110 +1,168 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>蒼乃建設</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>蒼乃建設</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="wrap">
+      <div class="header-wrap">
+        <div class="header-container">
+          <header class="header">
+            <h1>
+              <a href="#"
+                ><img
+                  src="images/header_logo.png"
+                  alt="蒼乃建設"
+                  class="header-logo"
+              /></a>
+            </h1>
+            <!-- ヘッダーナビ -->
+            <nav class="header-nav">
+              <ul>
+                <li><a href="#">企業理念</a></li>
+                <li><a href="#">施工事例</a></li>
+                <li><a href="#">採用情報</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+              </ul>
+            </nav>
+            <div class="header-icon">
+              <img
+                id="header-icon-image"
+                src="images/hamburger.svg"
+                alt="ハンバーガーメニュー"
+              />
+            </div>
+            <div class="menu-contents">
+              <img
+                src="images/header_logo.png"
+                alt="蒼乃建設"
+                class="header-logo"
+              />
+              <ul>
+                <li><a href="#">企業理念</a></li>
+                <li><a href="#">施工事例</a></li>
+                <li><a href="#">採用情報</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+              </ul>
+              <p class="copyright">Copyright @ 2020 Aono Corporation</p>
+            </div>
+          </header>
 
-	<div class="wrap">
+          <p class="header-main-text" id="message">街を作る。未来を作る。</p>
+        </div>
+      </div>
 
-		<div class="header-wrap">
-			<div class="header-container">
-			<header class="header">
-				<h1><a href="#"><img src="images/header_logo.png" alt="蒼乃建設" class="header-logo"></a></h1>
-				<!-- ヘッダーナビ -->
-				<nav class="header-nav">
-					<ul>
-						<li><a href="#">企業理念</a></li>
-						<li><a href="#">施工事例</a></li>
-						<li><a href="#">採用情報</a></li>
-						<li><a href="#">お問い合わせ</a></li>
-					</ul>
-				</nav>
-				<div class="header-icon">
-					<img id="header-icon-image" src="images/hamburger.svg" alt="ハンバーガーメニュー">
-				</div>
-				<div class="menu-contents">
-					<img src="images/header_logo.png" alt="蒼乃建設" class="header-logo">
-					<ul>
-						<li><a href="#">企業理念</a></li>
-						<li><a href="#">施工事例</a></li>
-						<li><a href="#">採用情報</a></li>
-						<li><a href="#">お問い合わせ</a></li>
-					</ul>
-					<p class="copyright">Copyright @ 2020 Aono Corporation</p>
-				</div>
-			</header>
+      <!-- お知らせ -->
+      <section class="news">
+        <h2 class="news-title">お知らせ</h2>
+        <ul class="news-list">
+          <li>
+            <a href="#"
+              ><span class="news-list_block"
+                >2020.11.17<span class="news-list_border">お知らせ</span></span
+              >本社打合せ室が完成しました。</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="news-list_block"
+                >2020.11.10<span class="news-list_border">お知らせ</span></span
+              >【メディア掲載】住宅雑誌 2020年11月号</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="news-list_block"
+                >2020.11.01<span class="news-list_border">お知らせ</span></span
+              >ホームページが完成しました。</a
+            >
+          </li>
+        </ul>
+      </section>
 
+      <!-- 施工事例 -->
+      <section class="case">
+        <h2 class="case-title">施工事例</h2>
+        <div class="flexbox">
+          <section class="case-content">
+            <p class="case-content_img">
+              <img src="images/building1.png" alt="M様邸新築工事" />
+            </p>
+            <h3 class="case-content_title">M様邸新築工事</h3>
+            <p class="case-content_text">埼玉県</p>
+            <a href="#" class="case-content_btn"
+              ><img
+                src="images/more.png"
+                alt="詳細を見る"
+                class="case-content_img"
+            /></a>
+          </section>
+          <section class="case-content">
+            <p class="case-content_img">
+              <img src="images/building2.png" alt="スカイビル" />
+            </p>
+            <h3 class="case-content_title">スカイビル</h3>
+            <p class="case-content_text">東京都</p>
+            <a href="#" class="case-content_btn"
+              ><img
+                src="images/more.png"
+                alt="詳細を見る"
+                class="case-content_img"
+            /></a>
+          </section>
+        </div>
+        <p class="case-btn">
+          <a href="#">施工実績一覧</a>
+        </p>
+      </section>
 
-			<p class="header-main-text" id="message">街を作る。未来を作る。</p>
-			</div>
-		</div>
+      <!-- Links -->
+      <div class="links">
+        <a href="#" class="link-img"
+          ><img src="images/company.png" alt="企業理念"
+        /></a>
+        <a href="#" class="link-img"
+          ><img src="images/recruit.png" alt="採用情報"
+        /></a>
+        <a href="#" class="link-img"
+          ><img src="images/contact.png" alt="お問い合わせ"
+        /></a>
+      </div>
 
-<!-- お知らせ -->
-	<section class="news">
-	<h2 class="news-title">お知らせ</h2>
-		<ul class="news-list">
-			<li><a href="#"><span class="news-list_block">2020.11.17<span class="news-list_border">お知らせ</span></span>本社打合せ室が完成しました。</a></li>
-			<li><a href="#"><span class="news-list_block">2020.11.10<span class="news-list_border">お知らせ</span></span>【メディア掲載】住宅雑誌 2020年11月号</a></li>
-			<li><a href="#"><span class="news-list_block">2020.11.01<span class="news-list_border">お知らせ</span></span>ホームページが完成しました。</a></li>
-		</ul>
-	</section>
-
-<!-- 施工事例 -->
-<section class="case">
-	<h2 class="case-title">施工事例</h2>
-	<div class="flexbox">
-		<section class="case-content">
-			<p class="case-content_img"><img src="images/building1.png" alt="M様邸新築工事"></p>
-			<h3 class="case-content_title">M様邸新築工事</h3>
-			<p class="case-content_text">埼玉県</p>
-			<a href="#" class="case-content_btn"><img src="images/more.png" alt="詳細を見る" class="case-content_img"></a>
-		</section>
-		<section class="case-content">
-			<p class="case-content_img"><img src="images/building2.png" alt="スカイビル"></p>
-			<h3 class="case-content_title">スカイビル</h3>
-			<p class="case-content_text">東京都</p>
-			<a href="#" class="case-content_btn"><img src="images/more.png" alt="詳細を見る" class="case-content_img"></a>
-		</section>
-	</div>
-	<p class="case-btn">
-		<a href="#">施工実績一覧</a>
-	</p>
-</section>
-
-<!-- Links -->
-<div class="links">
-	<a href="#" class="link-img"><img src="images/company.png" alt="企業理念"></a>
-	<a href="#" class="link-img"><img src="images/recruit.png" alt="採用情報"></a>
-	<a href="#" class="link-img"><img src="images/contact.png" alt="お問い合わせ"></a>
-</div>
-
-<footer class="footer">
-	<div class="footer-content">
-		<div class="footer-nav">
-			<p>
-				<a href="#"><img src="images/footer_logo.png" alt="蒼乃建設" class="footer-logo"></a>
-			</p>
-			<nav class="footer-nav_list">
-			  <ul>
-				<li><a href="#">企業理念</a></li>
-				<li><a href="#">施工事例</a></li>
-				<li><a href="#">採用情報</a></li>
-				<li><a href="#">お問い合わせ</a></li>
-			  </ul>
-			</nav>
-		</div>
-		<p class="copyright">Copyright @ 2020 Aono Corporation</p>
-	</div>
-</footer>
-</div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="motion.js"></script>
-</body>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-nav">
+            <p>
+              <a href="#"
+                ><img
+                  src="images/footer_logo.png"
+                  alt="蒼乃建設"
+                  class="footer-logo"
+              /></a>
+            </p>
+            <nav class="footer-nav_list">
+              <ul>
+                <li><a href="#">企業理念</a></li>
+                <li><a href="#">施工事例</a></li>
+                <li><a href="#">採用情報</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+              </ul>
+            </nav>
+          </div>
+          <p class="copyright">Copyright @ 2020 Aono Corporation</p>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="motion.js"></script>
+  </body>
 </html>
